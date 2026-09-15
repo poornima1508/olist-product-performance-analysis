@@ -36,7 +36,7 @@ I didn't upload the raw dataset here since it's a bit large - see
 
 ## Dashboard
 
-![Product Performance Dashboard](powerbi/dashboard_screenshot.png)
+![Product Performance Dashboard](Power_bi/dashboard.png)
 
 The .pbix file is in `/powerbi` if you want to open it yourself.
 
