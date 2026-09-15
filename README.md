@@ -32,8 +32,13 @@ I didn't upload the raw dataset here since it's a bit large - see
 2. Pulled those queries into Python (`/python/olist_analysis.py`) to add
    month-over-month growth %, which is a pain to do in plain SQL, and exported
    the results as CSVs.
-3. Built the dashboard in Power BI using those CSVs. *(still working on this
-   part)*
+3. Built the dashboard in Power BI using those CSVs.
+
+## Dashboard
+
+![Product Performance Dashboard](powerbi/dashboard_screenshot.png)
+
+The .pbix file is in `/powerbi` if you want to open it yourself.
 
 ### A few things worth knowing about this data
 
@@ -74,5 +79,5 @@ sql/                  the queries
 python/               script that runs the analysis + exports CSVs
 data/processed/       CSVs the dashboard reads from
 data/README.md        where to get the raw dataset
-powerbi/              dashboard file + screenshots (in progress)
+powerbi/              dashboard file (.pbix) + screenshot
 ```
